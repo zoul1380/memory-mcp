@@ -1,0 +1,61 @@
+# Build results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test files
+test_in.txt
+test_output.txt
+test_err.txt
+test_out.txt
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+.mcp/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
+!MemoryMcp.Server/bin/Release/net9.0/MemoryMcp.Server.dll
+
+# User-specific files
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+*.sln.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~

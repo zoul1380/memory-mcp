@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "memory": {
+      "command": "dotnet",
+      "args": [
+        "G:\\code\\memory-mcp\\MemoryMcp.Server\\bin\\Release\\net8.0\\MemoryMcp.Server.dll"
+      ]
+    }
+  }
+}
