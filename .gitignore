@@ -4,6 +4,9 @@ obj/
 [Dd]ebug/
 [Rr]elease/
 
+# Custom Release output
+memory-mcp/memory-live/
+
 # Visual Studio / VS Code
 .vs/
 .vscode/

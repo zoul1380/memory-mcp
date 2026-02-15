@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <OutputPath>$(MSBuildThisFileDirectory)memory-mcp\memory-live\$(MSBuildProjectName)\$(TargetFramework)\</OutputPath>
+  </PropertyGroup>
+</Project>
