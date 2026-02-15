@@ -18,9 +18,10 @@ public class EndToEndWorkflowTests : IAsyncLifetime
         _repo = new LearningNoteRepo(_db.ConnectionString);
     }
 
-    public async Task DisposeAsync()
+    public Task DisposeAsync()
     {
         _fixture.Dispose();
+        return Task.CompletedTask;
     }
 
     [Fact]
